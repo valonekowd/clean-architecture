@@ -1,4 +1,4 @@
 .vscode
 
-cmd/server/config/*.yml
-!cmd/server/config/default.yml
+config/*.yml
+!config/default.yml
