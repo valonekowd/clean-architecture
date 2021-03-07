@@ -1,0 +1,22 @@
+server:
+  host: localhost
+  port: 3000
+
+datastore:
+  primary:
+    driverName: postgres
+    host: localhost
+    port: 5432
+    username: postgres
+    password: postgres
+    dbname: bank
+
+auth:
+  jwt:
+    secret: keep-me-safe
+    issuer: bank-app-v0
+    algorithm: HS256
+
+validation:
+  playground:
+    tagName: validate
