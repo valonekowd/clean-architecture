@@ -17,7 +17,7 @@ import (
 	"github.com/valonekowd/clean-architecture/adapter/endpoint"
 	"github.com/valonekowd/clean-architecture/adapter/formatter"
 	"github.com/valonekowd/clean-architecture/adapter/repository"
-	"github.com/valonekowd/clean-architecture/cmd/server/config"
+	"github.com/valonekowd/clean-architecture/config"
 	"github.com/valonekowd/clean-architecture/infrastructure/auth"
 	"github.com/valonekowd/clean-architecture/infrastructure/datastore/sql"
 	"github.com/valonekowd/clean-architecture/infrastructure/log/zap"
